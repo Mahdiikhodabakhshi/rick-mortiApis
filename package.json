@@ -1,6 +1,7 @@
 {
   "name": "parte-uno",
   "version": "0.0.0",
+  "author": "Mahdi khodabakhshi",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
