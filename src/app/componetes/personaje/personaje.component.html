@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card shadow">
+                <div class="card-header">
+                    <div class="card-title">
+                        <h2>{{personaje.id}}  {{personaje.name}}</h2>
+                    </div>
+                </div>
+              <img [src]="personaje.image" alt="" class="card-img-top">
+              <div class="card-body">
+                <p><strong class="text-bg-primary">Gender : </strong> {{personaje.gender}}</p>
+                <p><strong class="text-bg-primary">Specie : </strong> {{personaje.species}}</p>
+                <p><strong class="text-bg-primary">Status : </strong> {{personaje.status}}</p>
+                <p><strong class="text-bg-primary">Origin : </strong> {{personaje.origin}}</p>
+
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
